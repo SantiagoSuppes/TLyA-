@@ -1,0 +1,14 @@
+C:\Users\santi\source\repos\Guia1\bin\Debug\net8.0\Guia1.exe
+C:\Users\santi\source\repos\Guia1\bin\Debug\net8.0\Guia1.deps.json
+C:\Users\santi\source\repos\Guia1\bin\Debug\net8.0\Guia1.runtimeconfig.json
+C:\Users\santi\source\repos\Guia1\bin\Debug\net8.0\Guia1.dll
+C:\Users\santi\source\repos\Guia1\bin\Debug\net8.0\Guia1.pdb
+C:\Users\santi\source\repos\Guia1\obj\Debug\net8.0\Guia1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\source\repos\Guia1\obj\Debug\net8.0\Guia1.AssemblyInfoInputs.cache
+C:\Users\santi\source\repos\Guia1\obj\Debug\net8.0\Guia1.AssemblyInfo.cs
+C:\Users\santi\source\repos\Guia1\obj\Debug\net8.0\Guia1.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\repos\Guia1\obj\Debug\net8.0\Guia1.dll
+C:\Users\santi\source\repos\Guia1\obj\Debug\net8.0\refint\Guia1.dll
+C:\Users\santi\source\repos\Guia1\obj\Debug\net8.0\Guia1.pdb
+C:\Users\santi\source\repos\Guia1\obj\Debug\net8.0\Guia1.genruntimeconfig.cache
+C:\Users\santi\source\repos\Guia1\obj\Debug\net8.0\ref\Guia1.dll
