@@ -1,0 +1,14 @@
+C:\Users\santi\source\repos\Guia_4\obj\Debug\net8.0\Guia_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\source\repos\Guia_4\obj\Debug\net8.0\Guia_4.AssemblyInfoInputs.cache
+C:\Users\santi\source\repos\Guia_4\obj\Debug\net8.0\Guia_4.AssemblyInfo.cs
+C:\Users\santi\source\repos\Guia_4\obj\Debug\net8.0\Guia_4.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\repos\Guia_4\bin\Debug\net8.0\Guia_4.exe
+C:\Users\santi\source\repos\Guia_4\bin\Debug\net8.0\Guia_4.deps.json
+C:\Users\santi\source\repos\Guia_4\bin\Debug\net8.0\Guia_4.runtimeconfig.json
+C:\Users\santi\source\repos\Guia_4\bin\Debug\net8.0\Guia_4.dll
+C:\Users\santi\source\repos\Guia_4\bin\Debug\net8.0\Guia_4.pdb
+C:\Users\santi\source\repos\Guia_4\obj\Debug\net8.0\Guia_4.dll
+C:\Users\santi\source\repos\Guia_4\obj\Debug\net8.0\refint\Guia_4.dll
+C:\Users\santi\source\repos\Guia_4\obj\Debug\net8.0\Guia_4.pdb
+C:\Users\santi\source\repos\Guia_4\obj\Debug\net8.0\Guia_4.genruntimeconfig.cache
+C:\Users\santi\source\repos\Guia_4\obj\Debug\net8.0\ref\Guia_4.dll
