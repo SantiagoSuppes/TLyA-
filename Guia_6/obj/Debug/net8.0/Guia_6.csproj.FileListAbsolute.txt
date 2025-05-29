@@ -1,0 +1,15 @@
+C:\Users\santi\source\repos\Guia_6\bin\Debug\net8.0\Guia_6.exe
+C:\Users\santi\source\repos\Guia_6\bin\Debug\net8.0\Guia_6.deps.json
+C:\Users\santi\source\repos\Guia_6\bin\Debug\net8.0\Guia_6.runtimeconfig.json
+C:\Users\santi\source\repos\Guia_6\bin\Debug\net8.0\Guia_6.dll
+C:\Users\santi\source\repos\Guia_6\bin\Debug\net8.0\Guia_6.pdb
+C:\Users\santi\source\repos\Guia_6\obj\Debug\net8.0\Guia_6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\source\repos\Guia_6\obj\Debug\net8.0\Guia_6.AssemblyInfoInputs.cache
+C:\Users\santi\source\repos\Guia_6\obj\Debug\net8.0\Guia_6.AssemblyInfo.cs
+C:\Users\santi\source\repos\Guia_6\obj\Debug\net8.0\Guia_6.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\repos\Guia_6\obj\Debug\net8.0\Guia_6.sourcelink.json
+C:\Users\santi\source\repos\Guia_6\obj\Debug\net8.0\Guia_6.dll
+C:\Users\santi\source\repos\Guia_6\obj\Debug\net8.0\refint\Guia_6.dll
+C:\Users\santi\source\repos\Guia_6\obj\Debug\net8.0\Guia_6.pdb
+C:\Users\santi\source\repos\Guia_6\obj\Debug\net8.0\Guia_6.genruntimeconfig.cache
+C:\Users\santi\source\repos\Guia_6\obj\Debug\net8.0\ref\Guia_6.dll
