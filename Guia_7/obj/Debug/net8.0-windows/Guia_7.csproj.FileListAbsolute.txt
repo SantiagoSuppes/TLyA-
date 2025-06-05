@@ -1,0 +1,17 @@
+C:\Users\santi\source\repos\Guia_7\bin\Debug\net8.0-windows\Guia_7.exe
+C:\Users\santi\source\repos\Guia_7\bin\Debug\net8.0-windows\Guia_7.deps.json
+C:\Users\santi\source\repos\Guia_7\bin\Debug\net8.0-windows\Guia_7.runtimeconfig.json
+C:\Users\santi\source\repos\Guia_7\bin\Debug\net8.0-windows\Guia_7.dll
+C:\Users\santi\source\repos\Guia_7\bin\Debug\net8.0-windows\Guia_7.pdb
+C:\Users\santi\source\repos\Guia_7\obj\Debug\net8.0-windows\Guia_7.Form1.resources
+C:\Users\santi\source\repos\Guia_7\obj\Debug\net8.0-windows\Guia_7.csproj.GenerateResource.cache
+C:\Users\santi\source\repos\Guia_7\obj\Debug\net8.0-windows\Guia_7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\source\repos\Guia_7\obj\Debug\net8.0-windows\Guia_7.AssemblyInfoInputs.cache
+C:\Users\santi\source\repos\Guia_7\obj\Debug\net8.0-windows\Guia_7.AssemblyInfo.cs
+C:\Users\santi\source\repos\Guia_7\obj\Debug\net8.0-windows\Guia_7.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\repos\Guia_7\obj\Debug\net8.0-windows\Guia_7.sourcelink.json
+C:\Users\santi\source\repos\Guia_7\obj\Debug\net8.0-windows\Guia_7.dll
+C:\Users\santi\source\repos\Guia_7\obj\Debug\net8.0-windows\refint\Guia_7.dll
+C:\Users\santi\source\repos\Guia_7\obj\Debug\net8.0-windows\Guia_7.pdb
+C:\Users\santi\source\repos\Guia_7\obj\Debug\net8.0-windows\Guia_7.genruntimeconfig.cache
+C:\Users\santi\source\repos\Guia_7\obj\Debug\net8.0-windows\ref\Guia_7.dll
