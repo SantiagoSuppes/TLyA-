@@ -1,51 +1,158 @@
-Guía de ejercicios Nro. 1
+Guía de ejercicios Nro. 2
 
-Variables, constantes, tipos de datos, expresiones, funciones de entrada y salida, asignaciones, funciones incorporadas, operadores
+Estructuras Condicionales y Estructuras de Repetición
 
 
 Objetivos
 
 
-l Comprender la utilización de la función de ingreso y salida de datos
+l Comprender el funcionamiento de estructuras condicionales.
 
-l Comprender la inicialización de constantes y variables, los tipos de datos que pueden contener y las asignaciones de variables.
+l Conocer las diferentes estructuras condicionales, sus ventajas y limitaciones.
 
-l Comprender la utilización expresiones y la inclusión en ellas de operaciones matemáticas, de cadena de fecha y booleanas.
+l Comprender el funcionamiento de estructuras de repetición.
+
+l Conocer las diferentes estructuras de repetición, sus ventajas y limitaciones.
+
+l Comprender y aplicar los conceptos de estructura cerrada, y estructuras anidadas.
+
+l Comprender el uso de contadores, acumuladores, validaciones.
+
+l Comprender el uso de condiciones de salida.
+
 
 
 Ejercicios
 
 
-1) Realizar un procedimiento que muestre el mensaje “Hola Mundo”.
+1) Se pide codificar un procedimiento que requiera el ingreso de un número por parte del usuario, y que el sistema le informe si se trata de un número mayor o menor o igual a cero.
 
 
-2) Realizar un procedimiento que muestre en la consola su nombre - edad- país, y otro que se los pida como ingreso al usuario y luego los muestre.
-
-3) Realizar un procedimiento que pida al usuario los siguientes datos personales: nombre, apellido, edad y carrera; y luego muestre por pantalla los datos ingresados en una sola línea y luego en una línea por dato.
+2) Romina tiene un kiosco, donde debe registrar las ventas que realice. Codificar un procedimiento que se limite a cargar montos numéricos hasta que el usuario desee salir del sistema. Al finalizar, se debe mostrar el total de montos en un mensaje, utilizando un acumulador.
 
 
-4) a. Realizar un procedimiento que pida al usuario la cantidad de materias de la carrera de Lic. en Sistemas de Información de las Organizaciones, la cantidad de materias aprobadas y muestre en un cuadro de mensajes la cantidad de materias faltantes para recibirse. (Omitir todo tipo de validaciones.).
+3) Se pide realizar un procedimiento que solamente se limite a dar a elegir al usuario permanecer o no en el Sistema, dependiendo de la elección de este mismo:
 
-b. Modificar el procedimeinto anterior para que el usuario no deba ingresar la cantidad de materias total de la carrera, sino que esta se incluya en el mismo como una constante. (32 Materias)
+· Si el Usuario elige la letra “S”, el Sistema sigue funcionando.
 
-
-5) Realizar un procedimiento que permita ingresar 4 números y los muestre en el orden inverso al ingresado.
-
-
-6) Realizar un procedimiento que permita ingresar el alto y la base de un triángulo y muestre su área.
+· Si el Usuario selecciona la letra “N”, saldrá del Sistema.
 
 
-7) Realizar un procedimiento que pida al usuario el valor de los dos lados y luego calcule y muestre el perímetro y el área de un rectángulo.
+4) Se sabe que un usuario demora de su casa a la facultad, dependiendo del medio de transporte que elija, los siguientes tiempos:
+
+· Colectivo: 30 minutos
+
+· Subterráneo: 15 minutos
+
+· Bicicleta: 45 minutos
 
 
-8) Realizar un procedimiento que solicite al alumno las notas de los dos parciales teóricos y de los dos parciales prácticos de la materia actual y luego muestre el promedio de la teoría, el promedio de la práctica y el promedio de la materia (promedio de las cuatro notas).
+Realizar un procedimiento que permita elegir al usuario un menú con cada medio de transporte y, realizada la elección, muestre el medio de transporte elegido y su tiempo de viaje.
 
 
-9) Realice un procedimiento que permita sumar 4 números ingresados usando solo una variable numérica.
+5) Se le requiere construir un procedimiento que despliegue un menú con las siguientes características:
+
+1 - Altas
+
+2 - Bajas
+
+3 - Modificaciones
+
+4 – Salir
 
 
-10) Realice un procedimiento que permita ingresar: Cantidad de materias aprobadas, Cantidad de materias rendidas, Promedio y calcule el siguiente ranking:
+Una vez realizada la selección por el usuario el programa deberá mostrar una leyenda por pantalla que exprese la elección efectuada o en su defecto mostrar la leyenda “Dato erróneo” a. Resolver usando IF
+
+b. Resolver usando switch
+
+
+6) Hacer un procedimiento que pida al operador que ingrese dos números e informar si los números ingresados son iguales o distintos.
+
+
+7) Pedir al usuario que ingrese el tamaño en cm de los lados de un triángulo. Según los datos ingresados informar si se trata de un triángulo escaleno, isósceles o equilátero. Valide que cada lado sea superior a 0.
+
+
+8) Realizar un procedimiento que pida al usuario que ingrese números. Cuando ingrese el número 0 el programa debe terminar y mostrar los siguientes datos:
+
+· Cantidad de números ingresados. [ Contador ]
+
+· Sumatoria de los números ingresados. [ Acumulador ]
+
+· Promedio de los números ingresados
+
+· Valor máximo y mínimo de los números ingresados.
+
+
+9) Realice un procedimiento que permita el ingreso de un número entero menor a 100 y que indique si este es un número primo. [ Validación ]
+
+
+10) La empresa Cursos Veloces desea contar con un programa que le permita calcular el total de alumnos inscriptos en todos los cursos abiertos.
+
+El programa debe permitir el ingreso de la cantidad de alumnos anotados en cada curso que serán numerados automáticamente y en forma consecutiva al correr el proceso, comenzando por el curso 1 [ Contador ]
+
+Como la cantidad de cursos no se encuentra definida, el fin de proceso se producirá al ingresar un 0 en la cantidad de alumnos inscriptos. [ Condición de Salida ]
+
+a) Construya un programa que realice el proceso deseado.
+
+b) Construya un programa con la misma función que el anterior, pero en el que para finalizar el proceso se deba ingresar un número mayor a 99, y los cursos se numeren comenzando por el curso 10.
+
+Nota: los cursos nunca tienen más de 99 alumnos.
+
+
+11) Un club solicita una aplicación para determinar la cuota a pagar por los socios en función de su edad.
+
+El procedimiento debe pedir el ingreso de la edad del socio, no pudiendo aceptar números negativos; luego debe desplegar un mensaje con el valor de la cuota según el siguiente detalle:
+
+· Menores de 10 años: $5
+
+· Entre 10 y 17 años: $15
+
+· Desde 18 años: $22
+
+Finalmente se debe preguntar al usuario si desea realizar más consultas. [ Condición de salida ]
+
+
+12) Romina ahora quiere una mejora en el Sistema de registración de ventas. Quiere que se codifique un procedimiento que:
+
+· Vaya sumando las ventas efectuadas
+
+· Vaya sumando los montos de las ventas
+
+
+Una vez que termine de usar el Sistema, se deberán mostrar las ventas realizadas con el total del monto vendido.
+
+
+13) Realice un procedimiento que permita ingresar: Cantidad de materias aprobadas, Cantidad de materias rendidas, Promedio, la Cantidad de Materias Faltantes y calcule el siguiente ranking:
+
+
+Los bonificadores por materias faltantes son 1 – 90 pts, 2 – 60 pts, 3 – 45 pts, 4 – 30 pts, 5 – 25 pts, 6 – 20 pts, 7 – 15 pts, 8 – 10 pts y 9 –5 pts
 
 
 
-11) Realice un procedimiento que tenga almacenado el precio de tres productos, luego pregunte al usuario la cantidad comprada de cada uno de ellos, y luego devuelva el importe total a pagar.
+14) Un supermercado nos pide un programa para sus cajas registradoras, dándonos los siguientes datos:
+
+· Al cliente que compra más de 10 productos le hace el 1,5% de descuento sobre el total a pagar.
+
+· Al cliente que compra por más de $100 le hace el 3% de descuento sobre el total a pagar.
+
+· Al cliente que compra por más de $200 le hace el 5% de descuento sobre el total a pagar.
+
+· Al cliente que compra por más de $300 le hace el 7% de descuento sobre el total a pagar.
+
+
+Por último nos pide que en el ticket que se le entrega al cliente figuren los siguientes datos:
+
+· Total a pagar.
+
+· Total del porcentaje de descuento efectuado.
+
+· Cantidad de productos comprados.
+
+
+Debemos tener en cuenta lo siguiente:
+
+· El precio de los productos nunca es mayor a $50.
+
+· Al ingresar el valor “-1” como precio se termina el programa.
+
+· Se le debe dar el mayor beneficio que al cliente le correspond
