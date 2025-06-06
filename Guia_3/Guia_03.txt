@@ -1,0 +1,87 @@
+Guía de ejercicios Nro. 3
+
+Funciones y procedimientos
+
+
+Objetivos
+
+
+l Comprender conceptualmente la utilización de funciones y procedimientos, entender sus diferencias y similitudes, y las formas de llamados.
+
+l Comprender el concepto de modularización asociado a la utilización de funciones y procedimientos.
+
+l Comprender la utilización de parámetros, diferenciar entre la utilización por valor y por referencia.
+
+
+Ejercicios
+
+
+1) Realizar un procedimiento principal que asigne el valor entero 30 a una variable Ingreso. Luego, se debe llamar a dos procedimientos en el que se asigne a esa variable Ingreso el valor entero 40. Realizarlo, por un lado, enviando el argumento por Valor. Y, por otro lado, por Referencia. Por último, el procedimiento principal debe mostrar un mensaje mostrando el valor de la variable Ingreso luego de cada procedimiento.
+
+
+2) Codificar un procedimiento principal que pida el ingreso de 2 variables numéricas, y que llame una función que calcule la suma de esas dos variables, y devuelva el resultado al principal.
+
+
+3) Realizar un procedimiento principal que llame a otro procedimiento en el que, se intercambien los valores de dos variables. (los valores deben intercambiarse para el alcance del procedimiento principal)
+
+
+4) Crear un procedimiento principal que llame a una función que permita el ingreso de un numero de 1 a 10 (validándolo) y luego desde el principal muestre ese número.
+
+5) Codificar un procedimiento principal que pida el ingreso de 2 variables numéricas, y que llame una función que calcule el producto de esas dos variables, y devuelva el resultado al principal. Validar que los ingresos sean valores numéricos y positivos.
+
+
+6) Cree un procedimiento que permita el ingreso de distintos datos de un artículo considerando lo pedido a continuación:
+
+El ingreso del código del artículo debe efectuarse en una función que retornará el código validado. Los artículos se encuentran numerados del 1 al 999.
+
+Genere un procedimiento para:
+
+· el ingreso de la descripción del artículo y validar que no sea vacío y no sea mayor a 150 caracteres.
+
+· la carga y la validación del precio del artículo, teniendo en cuenta que no puede haber precios negativos ni valor 0.
+
+· el despliegue por pantalla de todos los valores ingresados.
+
+
+
+7) Realizar un procedimiento que permita calcular el valor final a pagar por una venta. Mediante una función CalcularDescuento, y en base al monto que se cargó y validó en el procedimiento principal, se debe calcular y retornar el valor del descuento.
+
+· Monto menor a $ 1.000 Descuento 10 %
+
+· Monto entre $1.000 y $ 10.000 Descuento 15 %
+
+· Monto entre $ 10.000 y $100.000 Descuento 20 %
+
+· Monto mayor a $100.000 Descuento 25 %
+
+Intente realizar este ejercicio sin declarar variables adicionales en la función.
+
+
+
+8) Se requiere construir un procedimiento que permita realizar operaciones entre dos números. Los datos de las operaciones deben ser ingresados con el siguiente orden: código de
+
+operación, operando 1 y operando 2. Para realizar una operación el usuario debe ingresar un código de operación de acuerdo con la siguiente lista:
+
+
+1 Suma +
+
+2 Resta -
+
+3 División /
+
+4 Multiplicación *
+
+5 Potenciación ^
+
+9 Salir
+
+Una vez cargado el código de operación, sólo en el caso en que corresponda, debe ingresar los dos operandos, el primero validado en un rango entre -1000 y 1000 y el segundo entre -100 y 100. La división de un número por 0 no debe ser permitida, mostrándole al usuario un mensaje de división por cero. La carga y validación de los datos de los dos operandos deben ser realizados ejecutando dos veces, una por cada operando, una única función denominada IngValOperando, que permita los rangos diferentes solicitados.
+
+Las operaciones deben efectuarse dentro de una función denominada CalcularOperacion.
+
+Se mostrará a través de un procedimiento MostrarResultado un mensaje que muestre el operando 1, el símbolo de la operación, el operando 2 y el resultado.
+
+El usuario puede terminar la carga de operaciones en el momento en que lo desee ingresando un 9 en el código de operación. En este caso, el sistema debe pedir al usuario que confirme la salida antes de terminar el programa.
+
+
+9) Realice el mismo procedimiento de antes, pero en lugar de la función CalcularOperacion utilice funciones diferentes para cada operación (CalcularSuma, CalcularResta, CalcularDivision, CalcularMultiplicacion y CalcularPotenciacion respectivamente)
