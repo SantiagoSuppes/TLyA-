@@ -1,0 +1,71 @@
+Guía de ejercicios Nro. 4
+
+Vectores y Matrices estáticas
+
+
+Objetivos
+
+
+l Comprender el concepto de arreglos (vectores y matrices) y el concepto de dimensión de los mismos.
+
+l Comprender la declaración, inicialización y carga de datos en vectores y matices estáticos.
+
+l Comprender las posibilidades de operación con los datos almacenados en arreglos.
+
+l Comprender las posibilidades de búsqueda de datos dentro de arreglos.
+
+l Comprender la forma de agregar elementos a los arreglos.
+
+
+Ejercicios
+
+
+1) Realizar un procedimiento pida al usuario el ingreso de 5 nombres de alumnos para un curso en un vector de tipo string, validando que no ingrese datos vacíos, y luego los imprima por consola.
+
+
+2) Realizar un procedimiento que pida al usuario el ingreso de 8 sueldos, validando que sean numéricos y positivos y los guarde en un vector de tipo float, y luego imprima el total de los sueldos por consola.
+
+
+3) Realizar un procedimiento que pida el ingreso de 5 alumnos de un curso en una matriz de tipo string y luego imprima todos los datos por consola. Los datos a pedir son Nro de Registro y Nombre. Validar el Nro de Registro, que sea numérico y positivo y el nombre que no sea vacío.
+
+
+4) Sobre la matriz del punto 3 se debe buscar un alumno por el Nro Registro, y mostrar sus datos.
+
+
+5) Realice un procedimiento que permita cargar varios nombres de personas en un vector de 5 registros. Para cada nombre el procedimiento verificará que no sea una cadena de longitud cero y que no se encuentre ya cargado en el vector. Si no se encuentra lo agregará al vector.
+
+
+6) Realizar un procedimiento que pida el ingreso de 8 sueldos de operarios, y los guarde en un vector de tipo float, validarse que sean numéricos y positivos y luego imprima el total y promedio de los sueldos por consola.
+
+
+7) Una empresa tiene dos turnos (mañana y tarde) en los que trabajan 8 empleados (4 por la mañana y 4 por la tarde).
+
+Desarrollar un procedimiento que permita el ingreso de los sueldos de los empleados agrupados por turno.
+
+Imprimir los sueldos de cada turno por consola.
+
+
+8) Realice un procedimiento que permita al profesor de un curso ingresar las notas de sus 30 alumnos y calcular los promedios del curso. El profesor cuenta con 4 notas por cada alumno, dos notas de parciales teóricos y dos de parciales prácticos. Al finalizar la carga el procedimiento debe mostrar los siguientes datos:
+
+- promedio general del curso.
+
+- promedio de parciales prácticos.
+
+- promedio de parciales teóricos.
+
+- porcentaje de desaprobados (menos de 4), regularizados (entre 4 y 6) y promocionados (mayor o igual a 7).
+
+Nota: El profesor redondea los promedios hacia arriba en el caso de que los decimales sean mayores o iguales que 0.50.
+
+
+9) Realice un procedimiento que permita al dueño de una verdulería ingresar la información de los 50 productos que vende. Debe ingresar nombre del producto, cantidad en kilos (puede ser cero), y el precio que pagó por kilo.
+
+Se debe validar que tanto la cantidad como el precio sean datos numéricos, positivos o cero.
+
+Al finalizar la carga debe mostrar el valor total del stock.
+
+
+10) Sobre la matriz anterior, desarrollar un procedimiento que reciba el nombre del producto y devuelva el precio de venta calculado como: costo por kilo más un 10%.
+
+
+11) Sobre la matriz del punto 9, desarrollar un procedimiento que reciba el nombre del producto y permita actualizar el stock, pidiendo la nueva cantidad al usuario y validando que sea numérico y positivo. También debe actualizar el precio del mismo, pidiendo el nuevo costo al usuario y guardando en la matriz el promedio entre el precio anterior y el actual (a menos que el stock anterior haya sido cero)
