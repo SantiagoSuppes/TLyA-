@@ -1,0 +1,95 @@
+Guía de ejercicios Nro. 6
+
+Vectores y matrices dinámicas (Listas)
+
+
+Objetivos
+
+
+l Comprender el concepto de vectores/matrices dinámicos.
+
+l Comprender la declaración, inicialización y carga de datos en listas.
+
+l Comprender las posibilidades de operación con los datos almacenados en listas.
+
+l Comprender las posibilidades de búsqueda de datos dentro de listas.
+
+l Comprender la forma de ordenar según diferentes criterios los datos de las listas.
+
+l Comprender la forma cambiar el tamaño de las listas (agregar y quitar elementos).
+
+
+Ejercicios
+
+
+1) Realizar un procedimiento que solicite al usuario el ingreso de los Nros. de Registro de los alumnos de un curso en una lista dinámica de tipo int. Se le deberá preguntar luego de cada ingreso si desea continuar ingresando alumnos, validando que sea (S/N). Al ingresar la N, se deberá imprimir por pantalla los datos de la lista.
+
+
+2) Agregar al procedimiento del punto 1) un procedimiento que imprima por pantalla la totalidad de los registros de la lista, utilizando la función Count().
+
+
+3) Realizar un procedimiento que elimine el índice 0 de la lista del punto 1). Utilizar la función RemoveAt().
+
+
+4) Realizar un procedimiento que agregue un alumno a la lista del punto 1) y luego elimine ese mismo registro, utilizando la función Remove().
+
+
+5) Realizar un procedimiento que le solicite al usuario ingresar un Nro. de Registro, para luego eliminarlo. En ambos casos, ya sea exitoso o no, se deberá mostrar un mensaje indicando la situación.
+
+
+6) Realizar una clase Alumno, que posea las siguientes propiedades:
+
+
+NroRegistro -> int
+
+Nombre -> string
+
+Apellido -> string
+
+MateriasAprobadas -> byte
+
+MateriasRestantes -> byte
+
+Promedio -> float
+
+
+7) Realizar el procedimiento ToString() que sobrescriba el por defecto de la clase Alumno. Los datos deberán estar separados por guiones medios.
+
+
+8) Realizar en la clase del punto 6) un método AprobarMateria(), que deberá aumentar en 1 la cantidad de materias aprobadas, y disminuir en 1 la cantidad de materias restantes.
+
+
+9) Realizar un procedimiento que solicite al usuario el ingreso de los alumnos de un curso en una lista dinámica de Alumno. Se le deberá preguntar luego de cada ingreso si desea continuar ingresando alumnos, validando que sea (S/N). Al ingresar la N, se debe imprimir por pantalla todos los datos de la lista. Es recomendable utilizar el método ToString() por cada ítem.
+
+
+10) Realizar una función que tenga como parámetro el Nro de Registro y busque ese alumno en la lista del punto 9). La misma deberá devolver el objeto alumno en caso de encontrarlo, caso contrario, devolverá null. Utilizar función Find().
+
+
+
+11) Realizar un procedimiento que llame a la función del punto 10), pero previamente solicite al
+
+usuario el Nro. de Registro a buscar, validando que el mismo sea numérico y positivo. En caso de encontrarlo, deberá mostrar un mensaje de éxito, caso contrario un mensaje notificando que el mismo no existe.
+
+
+12) Realizar un procedimiento que solicite al usuario un Nro. de Registro, se debe buscar el mismo en la lista del punto 9), si lo encuentra, se deberá llamar al método de ese alumno AprobarMateria() del punto 8). Luego se debe verificar la cantidad de materias faltantes del mismo, si el valor es 0, se deberá mostrar un mensaje de felicitaciones, indicando al alumno que se ha recibido. Caso contrario, se deberá mostrar la cantidad de materias faltantes para recibirse.
+
+
+13) Realizar un procedimiento que muestre por pantalla el promedio de notas general de alumnos de la lista del punto 9).
+
+
+14) Realizar un procedimiento que ordene la lista de manera ascendente por Nro. de Registro.
+
+
+15) Realizar un procedimiento que ordene la lista de manera ascendente por Nro. de Registro, y ascendente por Nombre y Apellido.
+
+
+16) Realizar un procedimiento que muestre por pantalla la cantidad de alumnos que tienen promedio por encima de 7. Utilizar la función Count().
+
+
+17) Realizar un procedimiento que muestre por pantalla un listado con todos los datos de los alumnos que le faltan menos de 5 materias para recibirse. Utilizar la función FindAll().
+
+
+18) Realizar una función que devuelva el valor mínimo de todos los promedios. Función Min().
+
+
+19) Realizar una función que devuelva el valor máximo de todos los promedios. Función Max().
