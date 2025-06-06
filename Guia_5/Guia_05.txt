@@ -1,0 +1,54 @@
+Guía de ejercicios Nro. 5
+
+Objetos
+
+
+Objetivos
+
+
+l Comprender el concepto de objetos y clases.
+
+l Comprender la declaración, instancia y carga de datos en objetos.
+
+l Comprender los conceptos de propiedades y métodos.
+
+l Comprender el concepto de constructor.
+
+
+Ejercicios
+
+
+1) Realizar una clase Persona, que posea las siguientes propiedades:
+
+DNI -> int
+
+Nombre -> string
+
+Apellido -> string
+
+FechaNacimiento -> DateTime
+
+Edad -> byte
+
+Genero -> string
+
+
+2) Realizar 2 constructores de la clase, uno sin parámetros, y otro con todos los parámetros.
+
+
+3) Realizar la función ToString() que sobrescriba el por defecto de la clase Persona. Los datos deberán estar separados por guiones medios. La FechaNacimiento deberá estar en formato dd/MM/yyyy.
+
+
+4) Realizar una función CrearPersona, que instancie la clase Persona del punto 1) y la cargue con datos que deben ser solicitados al usuario. Los mismos deben ser validados, siendo los string no vacíos, la fecha del tipo indicado y menor al día de hoy, y el DNI y Edad numérico y positivo. La función debe devolver el objeto Persona.
+
+
+5) Realizar 2 métodos en la clase Persona:
+
+
+· Saludar: deberá escribir por consola el saludo “Hola Mundo! Mi nombre completo es {Nombre} {Apellido} y tengo {Edad} años.” · CumplirAños: deberá sumar 1 año la edad actual de la persona.
+
+
+6) Realizar un procedimiento MostrarDatos que se encargue de mostrar por consola los datos del objeto instanciado en el punto 4), utilizando el ToString() del punto 3).
+
+
+7) Realizar una función booleana EsMayorDeEdad en la clase Persona, que retornara true o false, dependiendo si la persona es o no mayor de 18 años.
