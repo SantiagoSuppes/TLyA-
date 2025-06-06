@@ -1,0 +1,60 @@
+Guía de ejercicios Nro. 7
+
+Eventos e interfaz gráfica, Manejo de archivos
+
+
+Objetivos
+
+
+l Comprender el concepto de los controles, sus propiedades y métodos.
+
+l Comprender el flujo de los controles en los formularios.
+
+l Comprender el concepto de los eventos.
+
+l Comprender el concepto del manejo de archivos.
+
+l Comprender los métodos y propiedades de FileInfo y StreamReader.
+
+
+Ejercicios
+
+
+1) Utilizando la clase Alumno del punto 6 de la guía 6, realizar un formulario y en el mismo, un control del tipo TextBox, junto con su label para cada propiedad de esa clase.
+
+
+2) Agregar un botón btnAgregar que, al hacerle clic, agregue un registro a una lista alumnos, del tipo Alumno. Validar que ningún dato este vacío y MateriasAprobadas, MateriasRestantes y Promedio sean del tipo correspondiente y positivos. El promedio debe ser entre 1 y 10.
+
+
+3) Agregar un botón btnMostrarDatos, que muestre los datos de todos los alumnos de la lista alumnos del punto 2.
+
+El formato debe ser:
+
+Registro - Nombre - Apellido - MateriasAprobadas – MateriasRestantes - Promedio
+
+
+4) Agregar un TextBox txtRegistroBuscar y un botón btnBuscarAlumno, que, al hacerle clic se encargue de buscar el alumno ingresado en txtRegistroBuscar en la lista alumnos del punto 2. En caso de no encontrarlo, se deberá mostrar un mensaje con dicho aviso.
+
+
+5) Agregar un ListBox lstAlumnos, en el cual se deben ir agregando en el evento clic del btnAgregar del punto 2, los números de registro de los alumnos. Además se debe agregar un botón btnEliminar, que al hacerle clic se debe eliminar el alumno seleccionado, tanto del ListBox como de la lista dinámica. Se debe validar previamente que el ListBox tenga al menos 1 ítem y el mismo este seleccionado.
+
+
+6) Agregar en un GroupBox (gbDistinciones), 3 RadioButton, rbDistincion1, rbDistincion2, rbDistincion3, y un botón btnMostrarDistinciones. Al hacer clic en ese botón, lo que se debe hacer es listar en un MessageBox los alumnos (números de registro) que tienen promedio de la distinción seleccionada. Si no tiene ninguna seleccionada se debe notificar mediante un mensaje dicha situación.
+
+
+rbDistincion1 -> promedio entre 9 y 10.
+
+rbDistincion2 -> promedio entre 8 y 9.
+
+rbDistincion3 -> promedio entre 7 y 8.
+
+
+7) Crear un archivo de texto Alumnos.txt que contendrá el siguiente formato:
+
+NroRegistro;Nombre;Apellido;MateriasAprobadas;MateriasRestantes;Promedio
+
+
+Codifica el evento FormPrincipal_Load del formulario, que lo que hará es cargar todos los alumnos de ese archivo en la lista dinámica alumnos del punto 2, como los números de registro en el ListBox lstAlumnos. Se deberá mostrar un MessageBox si el archivo no se encuentra, caso contrario se deberá notificar que se cargó correctamente.
+
+
+8) Codifciar el evento FormPrincipal_FormClosed, que deberá guardar los datos de la lista dinámica alumnos en el archivo de texto del punto 7. Por último mostrara un MessageBox indicando que se guardó correctamente.
