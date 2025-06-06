@@ -1,0 +1,51 @@
+Guía de ejercicios Nro. 1
+
+Variables, constantes, tipos de datos, expresiones, funciones de entrada y salida, asignaciones, funciones incorporadas, operadores
+
+
+Objetivos
+
+
+l Comprender la utilización de la función de ingreso y salida de datos
+
+l Comprender la inicialización de constantes y variables, los tipos de datos que pueden contener y las asignaciones de variables.
+
+l Comprender la utilización expresiones y la inclusión en ellas de operaciones matemáticas, de cadena de fecha y booleanas.
+
+
+Ejercicios
+
+
+1) Realizar un procedimiento que muestre el mensaje “Hola Mundo”.
+
+
+2) Realizar un procedimiento que muestre en la consola su nombre - edad- país, y otro que se los pida como ingreso al usuario y luego los muestre.
+
+3) Realizar un procedimiento que pida al usuario los siguientes datos personales: nombre, apellido, edad y carrera; y luego muestre por pantalla los datos ingresados en una sola línea y luego en una línea por dato.
+
+
+4) a. Realizar un procedimiento que pida al usuario la cantidad de materias de la carrera de Lic. en Sistemas de Información de las Organizaciones, la cantidad de materias aprobadas y muestre en un cuadro de mensajes la cantidad de materias faltantes para recibirse. (Omitir todo tipo de validaciones.).
+
+b. Modificar el procedimeinto anterior para que el usuario no deba ingresar la cantidad de materias total de la carrera, sino que esta se incluya en el mismo como una constante. (32 Materias)
+
+
+5) Realizar un procedimiento que permita ingresar 4 números y los muestre en el orden inverso al ingresado.
+
+
+6) Realizar un procedimiento que permita ingresar el alto y la base de un triángulo y muestre su área.
+
+
+7) Realizar un procedimiento que pida al usuario el valor de los dos lados y luego calcule y muestre el perímetro y el área de un rectángulo.
+
+
+8) Realizar un procedimiento que solicite al alumno las notas de los dos parciales teóricos y de los dos parciales prácticos de la materia actual y luego muestre el promedio de la teoría, el promedio de la práctica y el promedio de la materia (promedio de las cuatro notas).
+
+
+9) Realice un procedimiento que permita sumar 4 números ingresados usando solo una variable numérica.
+
+
+10) Realice un procedimiento que permita ingresar: Cantidad de materias aprobadas, Cantidad de materias rendidas, Promedio y calcule el siguiente ranking:
+
+
+
+11) Realice un procedimiento que tenga almacenado el precio de tres productos, luego pregunte al usuario la cantidad comprada de cada uno de ellos, y luego devuelva el importe total a pagar.
